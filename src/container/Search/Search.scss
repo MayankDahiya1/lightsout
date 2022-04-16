@@ -1,0 +1,52 @@
+.input{
+    width: 80%;
+    background-color: transparent;
+    border-radius: 1rem;
+    border: 3px solid #575756;
+    color: aliceblue;
+    text-align: center;
+    height: 2.5rem;
+    font-size: 1.3rem;
+    position: relative;
+    top: 5rem;
+    left: 10rem;
+}
+.container{
+    align-items: center;
+   
+}
+input:focus{
+    outline: none;
+}
+.button{
+    width: 30%;
+    position: relative;
+    top: 8rem;
+    left: 30rem;
+    background-color: transparent;
+    color: aliceblue;
+    border: 3px solid #575756;
+}
+
+.button:focus{
+    outline: none;
+}
+.button:hover{
+    transition: all 0.8s ease-in;
+    color: black;
+    background-color: aliceblue;
+}
+.row{
+    margin-top: 10rem;
+}
+@media (max-width:800px){
+    .input{
+        left: 3rem;
+    }
+    .button{
+        left: 9rem;
+    }
+    .row{
+        margin-top: 5rem;
+    }
+}
